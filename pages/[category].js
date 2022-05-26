@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 const Header = dynamic(() => import("../components/Header"));
 const Results = dynamic(() => import("../components/Results"));
 
-const category = ({ results }) => {
+const Category = ({ results }) => {
   const router = useRouter();
   const { category } = router.query;
 
@@ -100,4 +100,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default category;
+export default Category;

@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 const Header = dynamic(() => import("../../components/Header"));
 const LiteYouTubeEmbed = dynamic(() => import("react-lite-youtube-embed"));
 
-const slug = ({ movie }) => {
+const Slug = ({ movie }) => {
   function addProductJsonLd() {
     return {
       __html: `{
@@ -114,7 +114,7 @@ const slug = ({ movie }) => {
   );
 };
 
-export default slug;
+export default Slug;
 
 export const getStaticPaths = async () => {
   const client = (await import("../../sanity")).client;
