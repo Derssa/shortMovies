@@ -1,3 +1,5 @@
 # Allow all crawlers
 User-agent: *
 Allow: /
+
+Sitemap: https://aflam9asira.com/sitemap.xml
