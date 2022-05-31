@@ -33,6 +33,10 @@ export default function Home({ results, result }) {
           name="description"
           content="شاهد جميع الافلام القصيرة و استمتع بأفضل الإخراجات المغربية الاخيرة على موقع افلام قصيرة"
         />
+        <meta
+          name="facebook-domain-verification"
+          content="kdng0p48jxi87q7at7vyier7abjfwc"
+        />
         <meta name="google" content="notranslate" key="notranslate" />
         <meta name="theme-color" content="#991b1b" />
         <meta name="msapplication-TileColor" content="#f1f1f1" />
