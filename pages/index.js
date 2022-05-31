@@ -20,7 +20,7 @@ export default function Home({ results, result }) {
         setPage(page + 1);
         setMore(data.length === 0);
       })
-      .catch((err) => {
+      .catch((error) => {
         setMore(false);
       });
   }
