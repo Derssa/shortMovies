@@ -65,6 +65,11 @@ export default function Home({ results, result }) {
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8c0b0b" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9851108953188478"
+          crossorigin="anonymous"
+        ></script>
       </Head>
 
       {/* header */}
